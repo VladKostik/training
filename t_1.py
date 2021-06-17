@@ -1,4 +1,4 @@
-#1 Salary print
+# 1 Salary print
 
 john_salary = 1500.5
 marta_salary = 1111.6
@@ -19,4 +19,4 @@ print(marta_salary)
 
 
 
-
+# Good but too much new lines in file after code
