@@ -1,4 +1,4 @@
-#3 Name print
+# 3 Name print
 
 john_name = 'Rambo'
 marta_name = 'Stewart'

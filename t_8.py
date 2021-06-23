@@ -1,7 +1,7 @@
 #8 Dictionaries
 
-john_name = 'Rambo'
-marta_name = 'Stewart'
+john_name = 'Rambo'  # Good but it is second name only
+marta_name = 'Stewart'  # Good but it is second name only
 john_age = 33
 marta_age = 28
 john_salary = 1500.5
@@ -39,4 +39,5 @@ marta = {
 #print(marta)
 
 for key, value in marta.items():
+
     print(key,value)
