@@ -5,4 +5,3 @@ print(my_dd_coordinates)
 
 #check type
 print(type(my_dd_coordinates))
-

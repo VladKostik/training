@@ -5,18 +5,3 @@ marta_salary = 1111.6
 
 print(john_salary)
 print(marta_salary)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

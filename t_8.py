@@ -13,8 +13,14 @@ marta_friends = ['Arthur', 'Sarah', 'Mary']
 my_dd_coordinates = (46.4666648, 30.7333304)
 
 
-john = {'Full name:' : f'John {john_name}', 'Age:' : john_age, 'Salary:' : john_salary,
-        'Gender:' : john_gender, 'Friends:' : john_friends, 'Coordinates:' : my_dd_coordinates }
+john = {
+    'Full name:' : f'John {john_name}',
+    'Age:' : john_age,
+    'Salary:' : john_salary,
+    'Gender:' : john_gender,
+    'Friends:' : john_friends,
+    'Coordinates:' : my_dd_coordinates
+}
 #print(john)
 
 for key, value in john.items():
@@ -22,10 +28,15 @@ for key, value in john.items():
 
 print()
 
-marta = {'Full name:' : f'Marta {marta_name}', 'Age:' : marta_age, 'Salary:' : marta_salary,
-        'Gender:' : marta_gender, 'Friends:' : marta_friends, 'Coordinates:' : my_dd_coordinates }
+marta = {
+    'Full name:' : f'Marta {marta_name}',
+    'Age:' : marta_age,
+    'Salary:' : marta_salary,
+    'Gender:' : marta_gender,
+    'Friends:' : marta_friends,
+    'Coordinates:' : my_dd_coordinates
+}
 #print(marta)
 
 for key, value in marta.items():
     print(key,value)
-

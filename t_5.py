@@ -25,4 +25,3 @@ def who_are_friends(common_friends):
         print(f'Have no idea who are {name}`s friends')
 
 who_are_friends(common_friends)
-
