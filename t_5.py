@@ -24,8 +24,12 @@ def who_are_friends(common_friends):
     else:
         print(f'Have no idea who are {name}`s friends')
 
+
+who_are_friends(common_friends)
+
 who_are_friends(common_friends)
 
 
 # Good but present some PEP8 small mistakes. Will look on next lesson the common of them. And yes again too much new lines after code
+
 
