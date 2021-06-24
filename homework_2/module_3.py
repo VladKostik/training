@@ -12,4 +12,3 @@ i = 1
 for name in vegetarians:
     print(f'{i}. {name}')
     i += 1
-

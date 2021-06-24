@@ -6,5 +6,3 @@
 vip_guests = 'Sandra Bullok', 'Edward Norton', 'Willy J. Davidson', 'Jet Li'
 
 hall_guests = ['John Smith', 'Aaron Spulke', 'Mary Anderson', 'Sharon Stone']
-
-

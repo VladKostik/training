@@ -17,4 +17,3 @@ group_of_people = [
 
 unique_group = set(group_of_people)
 print(unique_group)
-

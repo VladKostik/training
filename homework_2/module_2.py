@@ -33,4 +33,3 @@ temp_blacklist_2 = majong_blacklist.intersection(temp_blacklist_1)
 print('All blacklists gamblers:')
 for name in temp_blacklist_2:
     print(name)
-
