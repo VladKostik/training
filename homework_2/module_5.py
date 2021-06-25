@@ -15,5 +15,15 @@ group_of_people = [
     'Johnny Cash'
 ]
 
-unique_group = set(group_of_people)
-print(unique_group)
+# unique_group = set(group_of_people)
+# print(unique_group)
+
+# Loop solution
+
+new_list = []
+for name in group_of_people:
+    if name not in new_list:
+        new_list.append(name)
+
+for element in new_list:
+    print(element)
