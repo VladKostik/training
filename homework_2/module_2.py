@@ -27,9 +27,12 @@ majong_blacklist = {
     'Taran Butler'
 }
 
-united_blacklist = bingo_blacklist.intersection(poker_blacklist,
-                                              majong_blacklist)
+united_blacklist = bingo_blacklist.intersection(
+    poker_blacklist, majong_blacklist
+)
 
 print('All blacklists gamblers:')
 for name in united_blacklist:
     print(name)
+
+# Good but make empty line in the end of module
