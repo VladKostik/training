@@ -29,7 +29,6 @@ majong_blacklist = {
 
 united_blacklist = bingo_blacklist.intersection(poker_blacklist,
                                               majong_blacklist)
-# temp_blacklist_2 = majong_blacklist.intersection(temp_blacklist_1)
 
 print('All blacklists gamblers:')
 for name in united_blacklist:
