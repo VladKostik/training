@@ -17,4 +17,4 @@ for friend in friends:
     elif friend not in enemies:
         print(f'{friend} we are the best friends')
     else:
-        print(f'{friend} we are not the friends anymore')
+        print(f'{friend} we are not friends anymore')
