@@ -27,3 +27,6 @@ for name in group_of_people:
 
 for element in new_list:
     print(element)
+# Good. Interesting solution but it could be done with dicts. Since dict keys always unique.
+# print(list({}.fromkeys(gruppa).keys()))
+# Good commit messages but net time try to place them into separate branch
