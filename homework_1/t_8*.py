@@ -88,4 +88,6 @@ for key, value in marta.items():
 # for key, value in john.items():
 #     # print(key, value, sep=" => ")
 #     print(f"{key} => {value}")
-# Also you may notice that there is no way to define some friends which are not defined yet. It was some trap in requirements. So next time clarify requiements.
+# Also you may notice that there is no way to define some
+# friends which are not defined yet. It was some trap in requirements.
+# So next time clarify requiements.
