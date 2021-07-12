@@ -38,3 +38,4 @@ for name in toshiba:
 #     toshiba.append(global_logic.pop())
 # print(toshiba)
 # print(global_logic)
+
