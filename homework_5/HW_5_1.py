@@ -1,8 +1,8 @@
 import random
 import os
 
-# path = 'test/data'
-# os.makedirs(path)
+path = 'test/data'
+os.makedirs(path)
 
 file = open('test/data/text.txt', 'w+')
 
