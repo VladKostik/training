@@ -31,7 +31,6 @@ for name in toshiba:
 # It could be resolved with next operations:
 # 1.
 # global_logic.clear()
-#
 # or
 # 2.
 # while global_logic:
