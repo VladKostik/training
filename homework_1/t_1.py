@@ -10,3 +10,4 @@ print(marta_salary)
 print(marta_salary)
 
 # Good but too much new lines in file after code
+
