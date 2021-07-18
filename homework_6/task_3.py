@@ -8,5 +8,8 @@ def is_prime(number: int) -> bool:
         d += 1
     return d == number
 
+
 if __name__ == "__main__":
-    print(is_prime(5))
+    print(is_prime(12))
+
+# Perfect. Best solution for current homework I have ever see.
