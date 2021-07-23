@@ -12,9 +12,11 @@ def name_function(any_function):
         return any_function(arg1, arg2)
     return decore
 
+
 @name_function
 def sum_function(x: int, y: int) -> int:
     return x + y
+
 
 @name_function
 def mult_function(w: int, z: int) -> int:
