@@ -25,7 +25,8 @@ name_dict = {
     'Victoria': 8
 }
 
-
+# not bad but I suggest to rename on some another name like callback or func
+# 'changes'
 def my_map(changes: Callable, some_items: Union[list, tuple, dict]) -> list:
 
     changed = []
