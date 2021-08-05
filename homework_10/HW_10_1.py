@@ -42,3 +42,10 @@ class Company:
 if __name__ == '__main__':
     toshiba: Company = Company('Toshiba', 'Corp.', 'Japan', 4000000)
     print(toshiba.get_info())
+
+    # Good but I want to see in methods state modification. -2 points
+    # All fields are public so I can modify them from anywhere in global scope -2 points
+
+    # toshiba.name = "Ololo"
+    # TODO: hide all fields using__
+    # TODO: add method hire for example which will increase number of employees and add employee into the list of names for example

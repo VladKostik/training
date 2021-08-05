@@ -68,3 +68,4 @@ if __name__ == '__main__':
     print(employee_1.current_task)
     employee_1.current_task = 'searching for FIM-92 Stingers'
     print(employee_1.do_the_job())
+    # Here description is better but still absent state modification -2 points
