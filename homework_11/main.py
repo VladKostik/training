@@ -1,4 +1,4 @@
-from HW_11.hd import HD
+from homework_11.HW_11.hd import HD
 
 
 if __name__ == '__main__':

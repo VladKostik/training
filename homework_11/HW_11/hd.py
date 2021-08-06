@@ -1,4 +1,4 @@
-from HW_11.motorcycle import Motorcycle
+from homework_11.HW_11.motorcycle import Motorcycle
 
 
 class HD(Motorcycle):
@@ -68,4 +68,5 @@ class HD(Motorcycle):
         volume = 0.5
         while volume < self.__fuel_capacity-0.1:
             volume += 0.1
-        return f'Filled {self.__model}`s tank with {volume.__round__(1)} gallons of {self.__fuel}'
+        return f'Filled {self.__model}`s tank with {volume.__round__(1)} ' \
+               f'gallons of {self.__fuel}'
