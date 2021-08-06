@@ -10,8 +10,3 @@ def back_in_time(days: int, hours: int) -> str:
 
 
 print(back_in_time(7, 0))
-<<<<<<< HEAD
-
-# good.
-=======
->>>>>>> parent of 08c09f3... Delete homework_9 directory

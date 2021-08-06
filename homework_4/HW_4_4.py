@@ -13,3 +13,5 @@ for name in list_of_names:
     new_name = re.sub(r'(?<!^)(?=[A-Z])', '_', name).lower()
     new_list_of_names.append(new_name)
 print(new_list_of_names)
+
+# Good

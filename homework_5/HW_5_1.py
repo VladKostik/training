@@ -1,8 +1,8 @@
 import random
 import os
 
-# path = 'test/data'
-# os.makedirs(path)
+path = 'test/data'
+os.makedirs(path)
 
 file = open('test/data/text.txt', 'w+')
 
@@ -17,3 +17,19 @@ for tuple in list_of_tuples:
     line = f'{tuple[0]} {tuple[1]} {tuple[2]}'
     file.write(line + '\n')
 file.close()
+
+# Good but take a look how it could be solved in more clear way
+# import pickle
+# import os
+#
+# from random import randint
+#
+#
+# os.makedirs("test/data")
+# operations = []
+#
+# for _ in range(100):
+#     operations.append((randint(1, 100), randint(1, 100), randint(1, 3)))
+#
+# with open("test/data/text.txt", "wb") as file:
+#     pickle.dump(operations, file)
