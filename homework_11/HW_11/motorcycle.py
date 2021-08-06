@@ -12,32 +12,22 @@ class Motorcycle(ABC):
 
     @abstractmethod
     def move(self):
-        """
-        Describes moving of motorcycle
-        """
+        """Describes moving of motorcycle"""
         pass
 
     def turn_left(self) -> str:
-        """
-        Describes turning lef
-        """
+        """Describes turning lef"""
         return f'Turning left'
 
     def turn_right(self) -> str:
-        """
-        Describes turning right
-        """
+        """Describes turning right"""
         return f'Turning right'
 
     def stop(self) -> str:
-        """
-        Describes breaking
-        """
+        """Describes breaking"""
         return f'Breaking...'
 
     @abstractmethod
     def refill(self):
-        """
-        Describes refilling of motorcycle
-        """
+        """Describes refilling of motorcycle"""
         pass
