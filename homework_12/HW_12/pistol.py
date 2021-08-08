@@ -18,7 +18,7 @@ class Pistol(IGun):
     @property
     def loading(self):
         """Returns pistol status - loaded or unloaded"""
-        if self._current_number_of_rounds == 0:
+        if self._current_number_of_rounds >= 0:
             self.__is_loaded = False
             return f"The {self.__name} is unloaded"
         else:
@@ -35,7 +35,7 @@ class Pistol(IGun):
 
     def shooting(self):
         """Describes shooting the pistol"""
-        if self._current_number_of_rounds > 0:
+        if self._current_number_of_rounds > 0 or self.__is_loaded == True:
             self._current_number_of_rounds -= 1
             return f'{self.__name} shot one round'
         else:
