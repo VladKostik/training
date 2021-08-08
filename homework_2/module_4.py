@@ -10,3 +10,4 @@ hall_guests = ['John Smith', 'Aaron Spulke', 'Mary Anderson', 'Sharon Stone']
 # Good job. Alternative solution with number of places.
 #
 # vip = ((1, "John Dow"), (2, "Marta Stuard"))
+
