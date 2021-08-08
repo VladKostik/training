@@ -11,4 +11,3 @@ if __name__ == '__main__':
     print(glock.loading)
     print(glock.shooting())
     print(glock.shooting())
-
