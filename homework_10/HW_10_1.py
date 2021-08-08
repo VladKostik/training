@@ -49,4 +49,3 @@ if __name__ == '__main__':
     # toshiba.name = "Ololo"
     # TODO: hide all fields using__
     # TODO: add method hire for example which will increase number of employees and add employee into the list of names for example
-
