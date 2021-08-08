@@ -18,7 +18,7 @@ class Pistol(IGun):
     @property
     def loading(self):
         """Returns pistol status - loaded or unloaded"""
-        if self._current_number_of_rounds == 0:
+        if self._current_number_of_rounds <= 0:
             self.__is_loaded = False
             return f"The {self.__name} is unloaded"
         else:
@@ -29,8 +29,9 @@ class Pistol(IGun):
     @loading.setter
     def loading(self, rounds: int) -> None:
         """Sets current number of rounds in pistol"""
-        if rounds > self.__mag_capacity:
-            raise ValueError
+        if rounds > self.__mag_capacity or rounds < 0:
+            raise ValueError(f'Number of rounds should be '
+                             f'between 1 and {self.__mag_capacity}')
         self._current_number_of_rounds = rounds
 
     def shooting(self):
