@@ -10,4 +10,3 @@ def dimm(a: int, b: int) -> int:
     Diminution b from a
     """
     return a - b
-

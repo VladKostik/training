@@ -15,4 +15,3 @@ def some_function(a: int, b: int) -> list:
 
 
 print(some_function(6, 4))
-
