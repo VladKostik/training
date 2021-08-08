@@ -18,4 +18,3 @@ print(d_1)
 # Second division
 d_2 = number >> 1
 print(d_2)
-

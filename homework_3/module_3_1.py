@@ -18,4 +18,3 @@ for value in values:
         even_list += temp,
 print(odd_list)
 print(even_list)
-
