@@ -11,3 +11,4 @@ class IGun(ABC):
     def loading(self):
         """Describes loading the gun"""
         pass
+

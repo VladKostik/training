@@ -41,3 +41,4 @@ class Pistol(IGun):
             return f'{self.__name} shot one round'
         else:
             return f'Run out of ammo! Load the {self.__name}!'
+
