@@ -13,3 +13,4 @@ import re
 
 new_line = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z][А-Я][а-я]\.)(?<=\.|\?)\s', text)
 print(new_line)
+
