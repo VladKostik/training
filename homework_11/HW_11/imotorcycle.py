@@ -31,3 +31,4 @@ class IMotorcycle(ABC):
     def refill(self):
         """Describes refilling of motorcycle"""
         pass
+
