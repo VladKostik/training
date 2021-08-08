@@ -10,4 +10,3 @@ print(marta_age)
 print(marta_age)
 
 # Good but 2 new lines after code was present
-

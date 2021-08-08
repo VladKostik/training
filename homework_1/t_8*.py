@@ -92,3 +92,4 @@ for key, value in marta.items():
 
 # friends which are not defined yet. It was some trap in requirements.
 # So next time clarify requiements.
+
