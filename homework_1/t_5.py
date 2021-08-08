@@ -31,3 +31,4 @@ who_are_friends(common_friends)
 
 
 # Good but present some PEP8 small mistakes. Will look on next lesson the common of them. And yes again too much new lines after code
+

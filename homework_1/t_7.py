@@ -8,3 +8,4 @@ print(my_dd_coordinates)
 print(type(my_dd_coordinates))
 
 print(type(my_dd_coordinates))  # good. We will look on this method / type later more. 2 new lines after code instead of 1
+
