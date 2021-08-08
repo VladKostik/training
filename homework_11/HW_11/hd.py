@@ -1,7 +1,7 @@
-from homework_11.HW_11.motorcycle import Motorcycle
+from .imotorcycle import IMotorcycle
 
 
-class HD(Motorcycle):
+class HD(IMotorcycle):
     name = 'Harley Davidson'
 
     def __init__(

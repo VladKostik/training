@@ -1,5 +1,4 @@
-from homework_11.HW_11.hd import HD
-
+from VladKostik.training.homework_11.HW_11.hd import HD
 
 if __name__ == '__main__':
     dyna = HD(
@@ -25,3 +24,5 @@ if __name__ == '__main__':
     print(dyna.refill())
     print(dyna.turn_left())
     print(dyna.stop())
+    dyna.__power = "some"
+    print(dyna.__power)
