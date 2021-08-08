@@ -26,3 +26,4 @@ def mult_function(w: int, z: int) -> int:
 if __name__ == '__main__':
     print(sum_function(2, 5))
     print(mult_function(5, 5))
+
