@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Motorcycle(ABC):
+class IMotorcycle(ABC):
 
     @abstractmethod
     def get_specs(self):

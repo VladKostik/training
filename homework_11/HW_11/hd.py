@@ -1,7 +1,7 @@
-from homework_11.HW_11.motorcycle import Motorcycle
+from homework_11.HW_11.imotorcycle import IMotorcycle
 
 
-class HD(Motorcycle):
+class HD(IMotorcycle):
     name = 'Harley Davidson'
 
     def __init__(
@@ -70,3 +70,7 @@ class HD(Motorcycle):
             volume += 0.1
         return f'Filled {self.__model}`s tank with {volume.__round__(1)} ' \
                f'gallons of {self.__fuel}'
+
+    @get_specs.setter
+    def get_specs(self, new_engine_capacity):
+        self.__engine_capacity = new_engine_capacity
