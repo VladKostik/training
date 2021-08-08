@@ -4,7 +4,7 @@
 number = 2
 
 # First multiplication
-m_1 = number*2
+m_1 = number * 2
 print(m_1)
 
 # Second multiplication
@@ -12,9 +12,11 @@ m_2 = number << 1
 print(m_2)
 
 # First division
-d_1 = number/2
+d_1 = number / 2
 print(d_1)
 
 # Second division
 d_2 = number >> 1
 print(d_2)
+
+# Good.
