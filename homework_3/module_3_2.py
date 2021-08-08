@@ -20,3 +20,4 @@ d_2 = number >> 1
 print(d_2)
 
 # Good.
+
