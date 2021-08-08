@@ -19,4 +19,3 @@ for name in vegetarians:
 # 1 mistak you have extend vbegeterians with all eaters
 # you should not update origin groups of people
 # just create additional list which will contain all of them from both lists
-
