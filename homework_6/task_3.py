@@ -13,3 +13,4 @@ if __name__ == "__main__":
     print(is_prime(12))
 
 # Perfect. Best solution for current homework I have ever see.
+
