@@ -17,3 +17,4 @@ for tuple in list_of_tuples:
     line = f'{tuple[0]} {tuple[1]} {tuple[2]}'
     file.write(line + '\n')
 file.close()
+
