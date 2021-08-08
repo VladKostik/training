@@ -17,4 +17,3 @@ if __name__ == "__main__":
 # Good. But take a look on warnings which provide Pycahrm for you
 # return type hint also could be modified:
 # Tuple[Union[int, float], Union[int, float], Union[int, float]]
-
