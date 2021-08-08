@@ -10,4 +10,3 @@ with open('test/data/text.txt') as file:
             print(int(new_line[0]) - int(new_line[1]))
         else:
             print(int(new_line[0]) * int(new_line[1]))
-
