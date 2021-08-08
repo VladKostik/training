@@ -54,4 +54,3 @@ def add_hello(item):
 if __name__ == '__main__':
     print(my_map(to_str, float_numbers_list))
     print(my_map(add_hello, name_dict))
-

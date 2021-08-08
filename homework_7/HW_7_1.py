@@ -83,4 +83,3 @@ if __name__ == '__main__':
     print(my_filter(is_digit, name_dict))
     print(my_filter(floats_compare, float_numbers_list))
     print(my_filter(is_odd, float_numbers_list))
-
