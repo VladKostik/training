@@ -1,7 +1,11 @@
-from homework_14.HW_14.dir_hw14.create_human import create_human
+from homework_14.HW_14.dir_hw14.human import Human
 
 
 if __name__ == '__main__':
-    for human in create_human({'John': 33, 'Marta': 28, 'Jack': 36}):
-        print(human.get_info())
+    bob = Human('Bob', 33, 'smoking weed')
+    marta = Human('Marta', 26, 'reading Holy Bible')
+    jack = Human('Jack', 38, 'drinking beer')
+    humans = [bob, marta, jack]
+
+    for human in humans:
         print(human.get_action())
