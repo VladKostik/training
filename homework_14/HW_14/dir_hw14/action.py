@@ -4,3 +4,5 @@ class Action:
 
     def action(self):
         return self.action_name
+
+# Action class should be functor but not simple class -2 points

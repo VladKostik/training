@@ -20,3 +20,5 @@ if __name__ == '__main__':
     iterator_sample = CustomIterator('super iterator', 0, 3)
     for item in iterator_sample:
         print(item)
+
+# Nice good work

@@ -12,3 +12,6 @@ class Human:
 
     def get_action(self):
         return f'{self.name} is {Action.action(self.__action)}'
+
+# no property action in class so -3 points
+# property actio should return action field
