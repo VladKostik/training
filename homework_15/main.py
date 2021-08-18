@@ -9,5 +9,4 @@ if __name__ == '__main__':
 
     print(ProductFactory.get_product('apple'))
     print(ProductFactory.get_product('watermelon'))
-    # print(ProductFactory.get_product('plum'))
-
+    print(ProductFactory.get_product('plum'))
