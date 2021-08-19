@@ -42,6 +42,6 @@ if __name__ == '__main__':
     traincar2.add_passenger(passenger2)
     traincar3.add_passenger(passenger3)
 
-    print(train1.__str__)
-    print(traincar1.__len__)
-    print(traincar1.__str__)
+    # print(train1)
+    # print(traincar1)
+    print(len(traincar1))

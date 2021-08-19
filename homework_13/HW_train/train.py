@@ -9,6 +9,8 @@ class Train:
     def add_traincar(self, traincar: Traincar):
         self.__train_cars.append(traincar)
 
+    # well it should not be property -1 point
+    # Here is error: TypeError: 'list' object is not callable -1 point
     @property
     def __str__(self):
         train_list = []
