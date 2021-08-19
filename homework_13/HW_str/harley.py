@@ -35,6 +35,7 @@ class Harley:
     def __strip_key(self, key: str):
         return key.replace(f'_{self.__class__.__name__}__', '')
 
+    # This also will not work if you will try print object without calling __str__ magc method manually
     @property
     def __str__(self) -> str:
         """
