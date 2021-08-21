@@ -8,3 +8,7 @@ def singleton_akm(_class: Type):
             setattr(_class, '__instance', _class(*args))
         return getattr(_class, '__instance')
     return inner
+
+
+# nice but instance not private attribute. I can get it from global scope withou
+# any additional manipulations -3 points
