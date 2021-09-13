@@ -16,7 +16,7 @@ def test_change_gender_method(human_1, monkeypatch):
 def test_change_gender_exception(human_1):
     with pytest.raises(Exception):
         human_1.change_gender('male')
-    assert Exception
+    assert Exception  # excessive assert
 
 
 def test_gender_method(human_1):
@@ -45,3 +45,6 @@ def test_is_alive_method_for_alive(human_1):
     for i in range(67):
         human_1.grow()
     assert human_1._Human__status == 'alive'
+
+# good but grow witout mock in some tests
+# change gender wihtout mocks too
