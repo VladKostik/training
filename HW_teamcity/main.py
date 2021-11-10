@@ -1,1 +1,1 @@
-print(f'Fuck the Teamcity')
+print(f'Change one')
